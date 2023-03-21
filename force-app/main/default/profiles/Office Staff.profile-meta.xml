@@ -15,7 +15,13 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Clienttest__c-Client test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Reviews__c-Reviews Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test2__c-Test2 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>review1__c-review1 Layout</layout>
@@ -26,7 +32,25 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Clienttest__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Reviews__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Test2__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
